@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.Singleton.ExecutePrinter</StartupObject>
+    <StartupObject>DesignPatterns.SimpleFactory.TestingShape</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactory\Circle.cs" />
+    <Compile Include="SimpleFactory\FactoryShape.cs" />
     <Compile Include="SimpleFactory\IShapeCal.cs" />
     <Compile Include="SimpleFactory\Rectangle.cs" />
     <Compile Include="SimpleFactory\Square.cs" />

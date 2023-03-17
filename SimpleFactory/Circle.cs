@@ -17,12 +17,13 @@ namespace DesignPatterns.SimpleFactory
 
         public double calArea()
         {
-            return Math.PI * Math.Pow(radius,2);
+            return Math.PI * Math.Pow(radius,2);    
         }
 
         public void print()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Area of {this} is: {calArea()}");
+            Console.ReadLine();
         }
     }
 }

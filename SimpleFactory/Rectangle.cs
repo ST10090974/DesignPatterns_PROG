@@ -18,12 +18,13 @@ namespace DesignPatterns.SimpleFactory
 
         public double calArea()
         {
-            throw new NotImplementedException();
+            return len * wid;
         }
 
         public void print()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Area of {this} is: {calArea()}");
+            Console.ReadLine();
         }
     }
 }
