@@ -52,6 +52,7 @@
     <Compile Include="SimpleFactory\IShapeCal.cs" />
     <Compile Include="SimpleFactory\Rectangle.cs" />
     <Compile Include="SimpleFactory\Square.cs" />
+    <Compile Include="SimpleFactory\TestingShape.cs" />
     <Compile Include="Singleton\ExecutePrinter.cs" />
     <Compile Include="Singleton\Printer.cs" />
   </ItemGroup>

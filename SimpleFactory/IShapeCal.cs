@@ -8,7 +8,7 @@ namespace DesignPatterns.SimpleFactory
 {
     internal interface IShapeCal
     {
-        void calArea();
+        double calArea();
         void print();
     }
 }

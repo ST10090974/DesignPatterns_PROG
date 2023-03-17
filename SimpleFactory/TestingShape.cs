@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.SimpleFactory
 {
-    internal class Square: IShapeCal
+    internal class TestingShape
     {
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
