@@ -11,7 +11,7 @@ namespace DesignPatterns.SimpleFactory
         static void Main(string[] args)
         {
             string op;
-            Console.Write("Enter 'R-Rectangle', 'S-Square', or 'C-Circle'");
+            Console.Write("Enter 'R-Rectangle', 'S-Square', 'C-Circle', or 'T-Triangle'");
             op = Console.ReadLine();    
             FactoryShape fs = new FactoryShape();
             IShapeCal sha = fs.GetShape(op.ToUpper());

@@ -38,6 +38,16 @@ namespace DesignPatterns.SimpleFactory
 
                 obj = new Circle(r);
             }
+            else if (type.Equals("T"))
+            {
+                double hei, bas;
+                Console.Write("Enter Height: ");
+                hei = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Enter Base: ");
+                bas = Convert.ToDouble(Console.ReadLine());
+
+                obj = new Triangle(hei, bas);
+            }
             return obj;
             
         }
