@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatterns.SimpleFactory.TestingShape</StartupObject>
+    <StartupObject>DesignPatterns.Builder.EmployeeTester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\Employee.cs" />
+    <Compile Include="Builder\EmployeeBuilder.cs" />
+    <Compile Include="Builder\EmployeeTester.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactory\Circle.cs" />
